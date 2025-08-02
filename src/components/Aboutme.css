@@ -1,0 +1,73 @@
+.body {
+    /* background: radial-gradient(circle at  top right, rgb(125, 87, 136), rgb(83, 26, 53), rgb(114, 42, 66));
+    background: radial-gradient(ellipse at  bottom left, rgb(96, 64, 105), rgba(149, 56, 99, 0.381), rgba(133, 38, 108, 0.573)); */
+    color: rgb(172, 168, 168);
+}
+
+.img-wrapper {
+    width: 320px;
+    height: 320px;
+    border-radius: 50%;
+    position: relative;
+    margin:auto;
+    /* border: 10 solid black; */
+}
+
+.heading {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+    text-transform: uppercase;
+    background-color: rgb(47, 37, 45);
+    border-radius:5px;
+}
+
+.pic {
+    max-width: 100%;
+    max-height: 100%;
+    padding: 5px;
+    height: auto;
+    width: auto;
+    border-radius: 50%;
+    object-fit: cover;
+    position: relative;
+    /* z-index: 2; */
+}
+
+/* Arc (glittery part) */
+.glitter-arc {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 310px;
+  height: 310px;
+  border-radius: 50%;
+  border: 7px solid transparent;
+  border-right: 7px solid rgb(129, 47, 104);
+  box-shadow: 0 0 20px rgb(169, 76, 137), 0 0 30px rgb(201, 51, 199);
+  transform: translate(-50%, -50%) rotate(0deg);
+  pointer-events: none;
+}
+
+.content1 {
+    font-family: "gf_Playfair_Display variant1", Tofu;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 25px;
+}
+
+
+
+.techstart {
+    display: flex;
+    justify-content: center;
+    /* centers the whole box horizontally */
+    align-items: center;
+}
+
+.techstart ul {
+    list-style: disc;
+    text-align: left;
+    /* ensures list items start from the same line */
+    padding: 0;
+    margin: 0;
+}

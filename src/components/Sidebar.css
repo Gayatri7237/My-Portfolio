@@ -1,0 +1,57 @@
+.invert{
+    filter: invert(1);
+}
+
+.flex{
+    display: flex;
+}
+
+.sidebar{
+    transition: width 0.5s ease;
+}
+
+.Sidehead{
+    justify-content: space-between;
+    align-items: center;
+    font-style: italic;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.side-list li{
+    font-size:1.7rem;
+    padding-bottom:1.6rem;
+    word-spacing: 0.3rem;
+    letter-spacing:0.06rem;
+}
+
+.side-list{
+    list-style-type: disc;
+    margin-top:2.2rem;
+    text-align: left;
+    font-style: italic;
+    font-weight:600;
+    text-transform: uppercase;
+    font-family: "gf_Libre_Baskerville variant0", Tofu;
+
+}
+
+.sidelogo{
+    height: 2.1rem;
+    width: 2.9rem;
+}
+
+.sidelogo:hover{
+    height: 2.4rem;
+    width: 3.2rem;
+}
+
+.listbox{
+    align-items: center;
+    justify-content: center; 
+    padding-left: 2rem;
+} 
+
+.side-list>li:hover{
+    /* color: purple;  */
+    font-size: 1.9rem;
+}
